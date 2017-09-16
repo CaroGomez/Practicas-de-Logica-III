@@ -15,9 +15,9 @@ public class Tripleta {
     
     private int columna;
     private int fila;
-    private int dato;
+    private double dato;
 
-    public Tripleta(int columna, int fila, int dato) {
+    public Tripleta(int columna, int fila, double dato) {
         this.columna = columna;
         this.fila = fila;
         this.dato = dato;
@@ -39,11 +39,11 @@ public class Tripleta {
         this.fila = fila;
     }
 
-    public int getDato() {
+    public double getDato() {
         return dato;
     }
 
-    public void setDato(int dato) {
+    public void setDato(double dato) {
         this.dato = dato;
     }
     

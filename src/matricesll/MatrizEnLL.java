@@ -22,7 +22,7 @@ public class MatrizEnLL {
         ult = x = cab; 
     } //fin constructor
     
-    public void IngresarNuevo(int pFila,int pColumn, int pDato){ //metodo INGRESAR NUEVO EMPLEADO
+    public void IngresarNuevo(int pFila,int pColumn, double pDato){ //metodo INGRESAR NUEVO EMPLEADO
         Tripleta t = new Tripleta(pFila, pColumn, pDato);
         Nodo p = new Nodo(t);
         ult.setLiga(p); 

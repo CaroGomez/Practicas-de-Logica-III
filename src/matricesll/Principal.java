@@ -97,7 +97,7 @@ public class Principal {
         
         infoAdj = objmatrizAdj.RecorreA();
         while (infoAdj.getDato() != 0 ){ //recorrerá toda la lista ligada de la matriz adjunta
-            objmatrizInv.IngresarNuevo(infoAdj.getFila(), infoAdj.getColumna(), ((int) (infoAdj.getDato()/det)));//en la lista ligada (_objmatrizInv) se almacena en su respectiva fila y columna correspondiente a la matriz adjunta
+            objmatrizInv.IngresarNuevo(infoAdj.getFila(), infoAdj.getColumna(), ( (infoAdj.getDato()/det)));//en la lista ligada (_objmatrizInv) se almacena en su respectiva fila y columna correspondiente a la matriz adjunta
             //el dato de la matriz adjunta, dividido entre el det
             infoAdj = objmatrizAdj.RecorreA();
         }            
