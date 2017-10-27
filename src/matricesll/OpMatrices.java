@@ -23,7 +23,7 @@ public class OpMatrices {
         
          for(int filaa = 1; filaa <= numfA ;filaa = filaa+1 ){ //recorrera todas las filas de A
                 for(int columb = 1; columb<= numcB ;columb = columb+1 ){//recorrera todas las columnas de B
-                    int valor =0;                    
+                    double valor = 0;                    
                     for(int k = 1; k<= numcA ;k = k+1 ){//recorrera las columnas de A
                         
                         infoA = objmatrizA.RecorreA();
